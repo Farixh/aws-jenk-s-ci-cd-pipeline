@@ -1,2 +1,24 @@
-# aws-jenk-s-ci-cd-pipeline
-Built an automated CI/CD pipeline using Jenkins and AWS services to enable continuous integration and deployment on EC2 instances.
+# AWS CI/CD Pipeline using Jenkins
+
+## 📌 Overview
+This project demonstrates a CI/CD pipeline using Jenkins integrated with AWS services.
+
+## ⚙️ Tech Stack
+- Jenkins
+- AWS EC2
+- AWS S3
+- CodeDeploy
+
+## 🔄 Workflow
+1. Code is pushed to repository
+2. Jenkins triggers build
+3. Artifacts stored in S3
+4. Deployment to EC2 via CodeDeploy
+
+## 🚀 Features
+- Automated build and deployment
+- Reduced manual effort
+- Continuous delivery pipeline
+
+## 📷 Architecture
+(Add your diagram here)
