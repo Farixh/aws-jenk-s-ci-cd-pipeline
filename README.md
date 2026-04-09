@@ -24,3 +24,9 @@ This project demonstrates a CI/CD pipeline using Jenkins integrated with AWS ser
 
 <img width="751" height="71" alt="AWs Jenkins drawio" src="https://github.com/user-attachments/assets/604cc245-013c-48a5-b3f9-a36a508d9b88" />
 
+
+
+## 📈 Key Outcomes
+- Automated application build and deployment using Jenkins CI/CD pipeline  
+- Reduced manual deployment effort through continuous integration  
+- Improved release consistency and deployment speed
