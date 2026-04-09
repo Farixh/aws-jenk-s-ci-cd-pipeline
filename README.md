@@ -20,3 +20,7 @@ This project demonstrates a CI/CD pipeline using Jenkins integrated with AWS ser
 - Reduced manual effort
 - Continuous delivery pipeline
 
+## 📷 Architecture
+
+<img width="751" height="71" alt="AWs Jenkins drawio" src="https://github.com/user-attachments/assets/604cc245-013c-48a5-b3f9-a36a508d9b88" />
+
