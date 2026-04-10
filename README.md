@@ -10,13 +10,40 @@ This project demonstrates a **complete CI/CD pipeline** using **Jenkins and AWS 
 
 ## 🧱 Architecture
 
-```
-GitHub (Code Repository)
-        ↓
-Jenkins (CI/CD Pipeline)
-        ↓
-AWS EC2 (Apache Web Server)
-```
+<p align="center">
+<svg width="700" height="220" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Boxes -->
+
+  <rect x="20" y="70" width="150" height="80" rx="10" fill="#24292e"/>
+  <text x="95" y="115" fill="white" font-size="14" text-anchor="middle">GitHub</text>
+
+  <rect x="260" y="70" width="150" height="80" rx="10" fill="#D24939"/>
+  <text x="335" y="115" fill="white" font-size="14" text-anchor="middle">Jenkins</text>
+
+  <rect x="500" y="70" width="150" height="80" rx="10" fill="#FF9900"/>
+  <text x="575" y="115" fill="white" font-size="14" text-anchor="middle">EC2 + Apache</text>
+
+  <!-- Arrows -->
+
+  <line x1="170" y1="110" x2="260" y2="110" stroke="#00F7FF" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="410" y1="110" x2="500" y2="110" stroke="#00F7FF" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Arrow Marker -->
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#00F7FF"/>
+    </marker>
+  </defs>
+
+</svg>
+</p>
+
+<p align="center">
+Code → Build → Deploy (Fully Automated CI/CD Pipeline)
+</p>
+
 
 <img width="751" height="71" alt="AWs Jenkins drawio" src="https://github.com/user-attachments/assets/16e008ba-fa3d-4727-91f6-c24174500a8f" />
 
